@@ -1,3 +1,9 @@
+
+// Підключені scss 
+@import "./sasscomponents/_page-header";
+@import "./sasscomponents/_page-footer";
+@import "./sasscomponents/_main-backdrop";
+
 // Обнуление і загальні силі
 body {
     font-family: "roboto", sans-serif;
@@ -46,10 +52,7 @@ img {
 
     --regular-font-weight: 400;
 }
-// Підключені scss 
-@import url(/sass/sasscomponents/main-backdrop.scss);
-@import url(/sass/sasscomponents/page-footer.scss);
-@import url(/sass/sasscomponents/page-header.scss);
+
 // Стилі для головної сторінки
 
 // Загальні стилі для секцій
